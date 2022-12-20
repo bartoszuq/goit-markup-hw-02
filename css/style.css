@@ -16,8 +16,9 @@ body {
   font-size: 14px;
   line-height: 1.143;
 }
-header .primary-logo,
-footer .footer-logo {
+.primary-logo,
+.footer-logo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -140,16 +141,13 @@ footer .footer-logo {
 
 /*--------------- footer ---------------*/
 
-footer {
+#footer {
   background-color: #2f303a;
 }
 .footer-logo {
-  text-decoration: none;
   color: white;
-  font-weight: 500;
-  font-size: 14px;
 }
-address {
+.address {
   line-height: 1.5rem;
   font-size: 14px;
 }
@@ -161,6 +159,6 @@ address {
 .address_link:hover {
   color: #2196f3;
 }
-address .street {
+.street {
   color: white;
 }
