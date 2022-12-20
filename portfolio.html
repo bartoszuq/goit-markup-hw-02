@@ -15,26 +15,38 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html" class="logo primary-logo"
+      <nav class="navbar">
+        <a href="index.html" class="logo primary-logo navbar_content"
           ><span class="logo-color-design">Web</span>Studio</a
         >
         <ul>
-          <li><a href="#agency" class="agency-link-portfolio">Agencja</a></li>
           <li>
-            <a href="portfolio.html" class="portfolio-link-portfolio"
+            <a href="#agency" class="link agency-link-portfolio navbar_content"
+              >Agencja</a
+            >
+          </li>
+          <li>
+            <a
+              href="portfolio.html"
+              class="link portfolio-link-portfolio navbar_content"
               >Portfolio</a
             >
           </li>
-          <li><a href="#footer" class="footer-link-portfolio">Kontakt</a></li>
+          <li>
+            <a href="#footer" class="link footer-link-portfolio navbar_content"
+              >Kontakt</a
+            >
+          </li>
         </ul>
       </nav>
       <ul class="contacts">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="contact"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:48111111111">+48 111 111 111</a>
+          <a href="tel:48111111111" class="contact">+48 111 111 111</a>
         </li>
       </ul>
     </header>
@@ -48,93 +60,101 @@
       </div>
       <div class="results main-content">
         <ul>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio1.jpg"
                 alt="laptop z otwartą naszą stroną internetową"
               />
-              <figcaption>Technocrack</figcaption>
+              <figcaption class="picture_heading">Technocrack</figcaption>
             </figure>
             <p class="descriptions">Strona internetowa</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio2.jpg"
                 alt="plakat z dwoma zawodnikami koszykówki walczącymi o piłkę"
               />
-              <figcaption>Grafika New Orlean vs Golden Star</figcaption>
+              <figcaption class="picture_heading">
+                Grafika New Orlean vs Golden Star
+              </figcaption>
             </figure>
             <p class="descriptions">Dizajn</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio3.jpg"
                 alt="logo z rybą restauracji Seafood"
               />
-              <figcaption>Restauracja Seafood</figcaption>
+              <figcaption class="picture_heading">
+                Restauracja Seafood
+              </figcaption>
             </figure>
             <p class="descriptions">Aplikacja</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio4.jpg"
                 alt="bezprzewodowe słuchawki nauszne"
               />
-              <figcaption>Projekt Prime</figcaption>
+              <figcaption class="picture_heading">Projekt Prime</figcaption>
             </figure>
             <p class="descriptions">Marketing</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio5.jpg"
                 alt="model dwóch pudełek przedstawiających aplikację boxes"
               />
-              <figcaption>Projekt Boxes</figcaption>
+              <figcaption class="picture_heading">Projekt Boxes</figcaption>
             </figure>
             <p class="descriptions">Aplikacja</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio6.jpg"
                 alt="monitor ze stroną promującą inspiration has no borders"
               />
-              <figcaption>Inspiration has no Borders</figcaption>
+              <figcaption class="picture_heading">
+                Inspiration has no Borders
+              </figcaption>
             </figure>
             <p class="descriptions">Strona internetowa</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio7.jpg"
                 alt="otwarta książka ze zdjęciami z serii magazynu limited edition"
               />
-              <figcaption>Magazyn Limited Edition</figcaption>
+              <figcaption class="picture_heading">
+                Magazyn Limited Edition
+              </figcaption>
             </figure>
             <p class="descriptions">Dizajn</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio8.jpg"
                 alt="etykieta ze wstążką i napisem lab el tag"
               />
-              <figcaption>Projekt LAB</figcaption>
+              <figcaption class="picture_heading">Projekt LAB</figcaption>
             </figure>
             <p class="descriptions">Marketing</p>
           </li>
-          <li>
-            <figure>
+          <li class="result">
+            <figure class="picture">
               <img
                 src="images/portfolio/portfolio9.jpg"
                 alt="osoba przedstawiająca na laptopie aplikację Growing Business"
               />
-              <figcaption>Growing Business</figcaption>
+              <figcaption class="picture_heading">Growing Business</figcaption>
             </figure>
             <p class="descriptions">Aplikacja</p>
           </li>
@@ -148,12 +168,20 @@
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/H3bxtUXeKF4GihGN7" class="street"
+            <a
+              href="https://goo.gl/maps/H3bxtUXeKF4GihGN7"
+              class="street address_link"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:48111111111">+48 111 111 111</a></li>
+          <li>
+            <a href="mailto:info@example.com" class="address_link"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:48111111111" class="address_link">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

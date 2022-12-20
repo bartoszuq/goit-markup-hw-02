@@ -5,23 +5,19 @@ body {
   background-color: white;
   color: black;
 
-  /* nav bar */
+  /*--------------- nav bar ---------------*/
 }
-.portfolio-link-portfolio {
-  color: #2196f3;
-}
-.portfolio-link-main {
-  color: default;
-}
-header a {
+
+.navbar_content,
+.contacts .contact {
   text-decoration: none;
   color: black;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
 }
-.primary-logo,
-.footer-logo {
+header .primary-logo,
+footer .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -33,22 +29,23 @@ header a {
 .logo-color-design {
   color: #2196f3;
 }
-header a:hover {
+.navbar .link:hover,
+.contacts .contact:hover {
   color: #2196f3;
 }
 
-/* index.html - main */
+/*--------------- index.html - main ---------------*/
 
 .post-header {
   background-color: #2f303a;
 }
-.post-header h1 {
+.post-header .heading {
   color: white;
   line-height: 1.364;
   font-size: 44px;
   font-weight: 900;
 }
-.post-header button {
+.post-header .button_order-service {
   background-color: #2196f3;
   color: white;
   border: none;
@@ -60,17 +57,17 @@ header a:hover {
   font-size: 16px;
   line-height: 1.875;
 }
-.skill h5 {
+.skill .heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   color: #212121;
 }
-.skill p {
+.skill .description {
   line-height: 1.714;
   color: #757575;
 }
-.about-us h2 {
+.about-us .heading {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -79,26 +76,32 @@ header a:hover {
 .our-team {
   background-color: #f5f4fa;
 }
-.our-team h2 {
+.our-team .heading {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
 }
-.our-team h4 {
+.our-team .name {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
 }
-.our-team p {
+.our-team .specialization {
   color: #757575;
   font-size: 16px;
   line-height: 1.189;
 }
 
-/* portfolio.html */
+/*--------------- portfolio.html ---------------*/
 
+.portfolio-link-portfolio {
+  color: #2196f3;
+}
+.portfolio-link-main {
+  color: default;
+}
 .buttons {
   background-color: #f5f4fa;
   color: #212121;
@@ -115,16 +118,16 @@ header a:hover {
   background-color: #2196f3;
   color: white;
 }
-figure {
+.picture {
   margin: 0;
 }
-figcaption {
+.picture_heading {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.main-content ul li {
+.main-content .result {
   border: 1px solid #eeeeee;
   width: 370px;
   cursor: pointer;
@@ -135,12 +138,12 @@ figcaption {
   line-height: 1.875;
 }
 
-/* footer */
+/*--------------- footer ---------------*/
 
 footer {
   background-color: #2f303a;
 }
-footer > a {
+.footer-logo {
   text-decoration: none;
   color: white;
   font-weight: 500;
@@ -150,12 +153,12 @@ address {
   line-height: 1.5rem;
   font-size: 14px;
 }
-address li a {
+.address_link {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-address li a:hover {
+.address_link:hover {
   color: #2196f3;
 }
 address .street {
